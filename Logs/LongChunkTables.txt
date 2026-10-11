@@ -1,0 +1,3 @@
+All runs: 119 E, 781 C, of 900
+T = 500, ξ = 10: 8 secant runs exact (N = 1, 3, 5, 7, 9, 11, 13, 15), shortest chunk 500/15 = 33.3; longest acceptance after 1-2 corrections 500/29 = 17.24
+T = 500, ξ = 100: 9 secant runs exact (N = 1, 3, 5, 7, 9, 11, 13, 15, 17), shortest chunk 500/17 = 29.4; longest acceptance after 1-2 corrections 500/53 = 9.434

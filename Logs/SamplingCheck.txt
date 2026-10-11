@@ -1,0 +1,6 @@
+Lorenz-63:
+  interval 0.02: coarse-only 1.36, Lyapunov 1.37e-5, secant 0.0312
+  interval 0.0025: coarse-only 1.36, Lyapunov 1.36e-5, secant 0.0163
+Lorenz-96:
+  interval 0.05: coarse-only 0.654, Lyapunov 0.0175, secant 0.425
+  interval 0.00625: coarse-only 0.651, Lyapunov 0.0164, secant 0.423

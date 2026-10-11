@@ -1,0 +1,56 @@
+Every step-halving interval contains zero: true
+Interval-width ratio at h = 5e-5, 256- to 128-time-unit blocks:
+  Lorenz-63  mean z             1.030
+  Lorenz-63  energy             1.002
+  Lorenz-63  autocorrelation    1.046
+  Lorenz-96  mean               0.985
+  Lorenz-96  energy             0.979
+  Lorenz-96  neighbour product  0.940
+
+Exploratory errors with RK4 coarse chunks; intervals are for the method minus coarse-only:
+  Lorenz-63  N = 32   coarse-only       mean z             0.222
+  Lorenz-63  N = 32   coarse-only       energy             2.28
+  Lorenz-63  N = 32   coarse-only       autocorrelation    0.103
+  Lorenz-63  N = 32   psi (Lyapunov w)  mean z             0.184  [-0.102, 0.0405]
+  Lorenz-63  N = 32   psi (Lyapunov w)  energy             1.71  [-1.27, 0.175]
+  Lorenz-63  N = 32   psi (Lyapunov w)  autocorrelation    0.111  [-0.055, 0.0686]
+  Lorenz-63  N = 32   psi (secant w)    mean z             0.186  [-0.0999, 0.0417]
+  Lorenz-63  N = 32   psi (secant w)    energy             1.7  [-1.28, 0.171]
+  Lorenz-63  N = 32   psi (secant w)    autocorrelation    0.112  [-0.0542, 0.07]
+  Lorenz-63  N = 128  coarse-only       mean z             0.0848
+  Lorenz-63  N = 128  coarse-only       energy             0.834
+  Lorenz-63  N = 128  coarse-only       autocorrelation    0.0445
+  Lorenz-63  N = 128  psi (Lyapunov w)  mean z             0.0725  [-0.0618, 0.033]
+  Lorenz-63  N = 128  psi (Lyapunov w)  energy             0.682  [-0.632, 0.225]
+  Lorenz-63  N = 128  psi (Lyapunov w)  autocorrelation    0.0428  [-0.0308, 0.0301]
+  Lorenz-63  N = 128  psi (secant w)    mean z             0.0725  [-0.0618, 0.033]
+  Lorenz-63  N = 128  psi (secant w)    energy             0.682  [-0.632, 0.225]
+  Lorenz-63  N = 128  psi (secant w)    autocorrelation    0.0428  [-0.0308, 0.0301]
+  Lorenz-96  N = 32   coarse-only       mean               0.0512
+  Lorenz-96  N = 32   coarse-only       energy             0.39
+  Lorenz-96  N = 32   coarse-only       neighbour product  0.238
+  Lorenz-96  N = 32   psi (Lyapunov w)  mean               0.0452  [-0.0409, 0.0229]
+  Lorenz-96  N = 32   psi (Lyapunov w)  energy             0.361  [-0.295, 0.196]
+  Lorenz-96  N = 32   psi (Lyapunov w)  neighbour product  0.179  [-0.251, 0.12]
+  Lorenz-96  N = 32   psi (secant w)    mean               0.0452  [-0.0409, 0.0229]
+  Lorenz-96  N = 32   psi (secant w)    energy             0.361  [-0.295, 0.196]
+  Lorenz-96  N = 32   psi (secant w)    neighbour product  0.179  [-0.251, 0.12]
+  Lorenz-96  N = 128  coarse-only       mean               0.0193
+  Lorenz-96  N = 128  coarse-only       energy             0.154
+  Lorenz-96  N = 128  coarse-only       neighbour product  0.123
+  Lorenz-96  N = 128  psi (Lyapunov w)  mean               0.0287  [-0.00836, 0.0256]
+  Lorenz-96  N = 128  psi (Lyapunov w)  energy             0.231  [-0.0559, 0.199]
+  Lorenz-96  N = 128  psi (Lyapunov w)  neighbour product  0.12  [-0.0866, 0.0716]
+  Lorenz-96  N = 128  psi (secant w)    mean               0.0287  [-0.00836, 0.0256]
+  Lorenz-96  N = 128  psi (secant w)    energy             0.231  [-0.0559, 0.199]
+  Lorenz-96  N = 128  psi (secant w)    neighbour product  0.12  [-0.0866, 0.0716]
+
+Failed runs with explicit Euler coarse chunks (nonfinite of 8):
+  Lorenz-63  N = 32   psi (Lyapunov w)  0 of 8
+  Lorenz-63  N = 32   psi (secant w)    0 of 8
+  Lorenz-63  N = 128  psi (Lyapunov w)  5 of 8
+  Lorenz-63  N = 128  psi (secant w)    4 of 8
+  Lorenz-96  N = 32   psi (Lyapunov w)  8 of 8
+  Lorenz-96  N = 32   psi (secant w)    8 of 8
+  Lorenz-96  N = 128  psi (Lyapunov w)  8 of 8
+  Lorenz-96  N = 128  psi (secant w)    8 of 8

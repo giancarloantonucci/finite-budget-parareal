@@ -1,0 +1,29 @@
+Main predictions (s_pred, s_fr, s_hit; frozen factor; μ̂; one-look excess g in %):
+  Lorenz-63 ξ = 10   w = 61.8     1, 2, 1;  β_fr = 0.173;  μ = 43.4;  g = 0.0115
+  Lorenz-63 ξ = 100  w = 365.1    2, 9, 1;  β_fr = 0.321;  μ = 43.4;  g = 0.00248
+  Logistic  ξ = 10   w = 2.476    6, 9, 3;  β_fr = 0.0845;  μ = 1;  g = 1.08
+  Logistic  ξ = 100  w = 2.484    19, 309, 5;  β_fr = 0.926;  μ = 1;  g = 1.03
+  Periodic  ξ = 10   w = 194.4    1, 2, 1;  β_fr = 0.109;  μ = 63.5;  g = 0.0258
+  Periodic  ξ = 100  w = 194.1    6, --, 2;  β_fr = 1.19;  μ = 63.5;  g = 0.0267
+Lorenz-63, ξ = 10: μ̂ = 43.4, ν̂ = 768, Λ = 61.8, S_fr = 0.345, S_map = 7.25e-08
+Lorenz-63, ξ = 100: w^-4 = 5.6e-11
+ê₀ over the measured initial error; β̂_W over the measured reduction per sweep up to the crossing;
+budget from the measured initial error:
+  Lorenz-63 ξ = 10   5.67  0.31  1
+  Lorenz-63 ξ = 100  5.66  2.21e+04  2
+  Logistic  ξ = 10   5.71  65.7  6
+  Logistic  ξ = 100  5.43  53.6  17
+  Periodic  ξ = 10   5.7  839  1
+  Periodic  ξ = 100  5.65  4.95e+03  5
+Short windows (ξ, h: β_fr, s_fr; s_RK, s_hit,RK):
+  10, 0.0001: 0.114, 2; 1, 1
+  10, 5.0e-5: 0.0348, 0; 0, 0
+  100, 0.0001: 1.25, --; 564, 1
+  100, 5.0e-5: 0.383, 10; 10, 1
+Linear checks (a, N: β_W, s_pred, s_hit):
+  -1, 8: 4.34e-07, 1, 1
+  -1, 32: 8.22e-07, 1, 1
+  1, 8: 5.37e-07, 1, 1
+  1, 32: 2.38e-06, 1, 1
+Periodic orbit: period 1.09623881358, return error 3.38e-12, one-chunk amplification 158, largest multi-chunk amplification 14.8
+Floquet multipliers: -0.137, -2.27e-06, 1

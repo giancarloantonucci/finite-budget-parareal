@@ -1,0 +1,28 @@
+Runs with finite estimates: 128 of 128
+Fine batches, psi_lyap: $2$
+Fine batches, psi_lip: $2$
+Weighted rules give identical estimates at every start: true
+
+Errors (mean, energy, neighbour product) and costs C, Q:
+  coarse        0.0195  0.153  0.116   C = 0.01  Q = 0.01
+  serial_half   0.0223  0.181  0.113   C = 0.02  Q = 0.02
+  psi_lyap      0.0255  0.2  0.113   C = 0.0354  Q = 2.01
+  psi_lip       0.0255  0.2  0.113   C = 0.0354  Q = 2.01
+
+Primary contrast (psi_lyap minus coarse, energy): +0.0474  [-0.0133, 0.105]
+Paired intervals, method minus baseline:
+  psi_lyap      coarse        mean               +0.00606  [-0.0015, 0.0131]
+  psi_lyap      coarse        energy             +0.0474  [-0.0133, 0.105]
+  psi_lyap      coarse        neighbour product  -0.00266  [-0.0369, 0.0312]
+  psi_lip       coarse        mean               +0.00606  [-0.0015, 0.0131]
+  psi_lip       coarse        energy             +0.0474  [-0.0133, 0.105]
+  psi_lip       coarse        neighbour product  -0.00266  [-0.0369, 0.0312]
+  serial_half   coarse        mean               +0.00279  [-0.00492, 0.0106]
+  serial_half   coarse        energy             +0.028  [-0.0342, 0.091]
+  serial_half   coarse        neighbour product  -0.00308  [-0.0421, 0.0406]
+  psi_lyap      serial_half   mean               +0.00328  [-0.00504, 0.0113]
+  psi_lyap      serial_half   energy             +0.0195  [-0.0476, 0.0851]
+  psi_lyap      serial_half   neighbour product  +0.000415  [-0.0442, 0.0403]
+  psi_lip       serial_half   mean               +0.00328  [-0.00504, 0.0113]
+  psi_lip       serial_half   energy             +0.0195  [-0.0476, 0.0851]
+  psi_lip       serial_half   neighbour product  +0.000415  [-0.0442, 0.0403]

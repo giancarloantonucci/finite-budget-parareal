@@ -1,0 +1,9 @@
+RK4 scaling, psi_lyap: 3 fine batches, converged
+RK4 scaling, psi_lip: 2 fine batches, converged
+Euler prescribed, psi_lyap: 21 fine batches, converged
+Euler control, psi_lyap: 22 fine batches, converged
+Euler prescribed, psi_lip: 12 fine batches, converged
+Euler control, psi_lip: 12 fine batches, converged
+Euler control, standard: 33 fine batches, nonfinite
+RK4 scaling, standard: 114 fine batches, converged
+Euler prescribed, standard: 65 fine batches, nonfinite
